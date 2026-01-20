@@ -100,3 +100,86 @@ button:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
+#agenda {
+    padding: 50px 5%;
+    text-align: center;
+    background-color: var(--blanco);
+}
+
+.texto-lectura {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.botones-agenda {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para que en celulares se pongan uno debajo del otro */
+}
+
+.btn-reserva {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.btn-manicura {
+    background-color: #d4af37; /* Dorado de tu marca */
+    color: white;
+}
+
+.btn-peluqueria {
+    background-color: #333; /* Un tono elegante oscuro */
+    color: white;
+}
+
+.btn-reserva:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+/* ... Tus estilos anteriores (Header, Hero, Servicios) ... */
+
+/* --- SECCIÓN DE AGENDA (Añadir aquí) --- */
+.botones-agenda {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.btn-reserva {
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    text-align: center;
+    min-width: 180px;
+}
+
+.btn-manicura {
+    background-color: #d4af37; /* Dorado Gloss & Glam */
+    color: white;
+}
+
+.btn-peluqueria {
+    background-color: #333; /* Negro elegante */
+    color: white;
+}
+
+.btn-reserva:hover {
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+/* --- SECCIÓN DE UBICACIÓN Y MAPA (Ya lo tienes al final) --- */
